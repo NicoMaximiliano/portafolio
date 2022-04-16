@@ -1,0 +1,31 @@
+.proyecto-imagen {
+    width: 60%;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.proyecto-imagen-sobre {
+    font-size: 1.3em;
+    line-height: 2;
+}
+
+.proyecto-imagen-titulo {
+    color: black;
+    font-size: 1.2em;
+}
+
+.proyecto-imagen-boton {
+
+    border-radius: 8px;
+    background-color: #ec6e5a;
+    display: block;
+    color: #FFF;
+    border: none;
+    height: 50px;
+    font-size: .8em;
+    outline: none;
+
+    cursor: pointer;
+
+    margin: 5%;
+}

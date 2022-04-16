@@ -1,0 +1,157 @@
+body {
+    background: #EAF2FD;
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: bold;
+}
+
+.container {
+    width: 94%;
+    margin: 0 auto;
+    /*
+    BORDER-WIDTH: 5PX;
+    BORDER-STYLE: SOLID;*/
+}
+
+.contenidoPrincipal {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contenidoPrincipal .container{
+    margin: 200px auto;
+}
+
+.contenidoPrincipal-link {
+    height: 200px;
+    background-color: #FFF;
+    text-align: center;
+    margin: 1%;
+    transition: .3s;
+    box-shadow: 2px 2px 2px #CCC;
+    position: relative;
+
+
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    display: inline-block;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px 0 0 0;
+}
+
+.contenidoPrincipal-link h3{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0 0 0;
+}
+
+.contenidoPrincipal-link img{
+    display: block;
+    margin: 40px auto;
+    height: 150px;
+    width: 110px;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+footer{
+    background-color: #3F3F3F;
+    padding: 20px 0 0 0;
+}
+
+footer p{
+    text-align: center;
+    color: #F2F5F7;
+    padding: 10px;
+}
+
+@media (min-width: 768px) {
+
+    .container {
+        width: 85%;
+    }
+
+    .subtitulo {
+        text-align: left;
+    }
+
+    .cabecera-nav-link {
+        border-radius: 5px;
+        border: 1px solid #9799A6;
+    }
+
+    /*
+    .headerPrincipal-nav-link:hover {
+        color: #FFF;
+        background-color: #9799A6;
+    }*/
+
+    .cabecera-titulo {
+        margin: 0;
+    }
+
+    .cabecera-nav {
+        width: auto;
+    }
+
+    .cabecera-nav-link {
+        width: auto;
+        margin: 0 0 0 10px;
+    }
+
+    .contacto-formulario {
+        margin-top: 0;
+        text-align: left;
+    }
+
+    .contenidoPrincipal-link:nth-child(3n) {
+        margin-right: 0;
+    }
+
+    .contenidoPrincipal-link:nth-child(3n+1) {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .contenidoPrincipal-link {
+        margin: 1.333%;
+    }
+
+    .contenidoPrincipal-link:nth-child(3n) {
+        margin-right: 1.33%;
+    }
+
+    .contenidoPrincipal-link:nth-child(3n+1) {
+        margin-left: 1.333%;
+    }
+
+    .contenidoPrincipal-link:nth-child(4n) {
+        margin-right: 0;
+    }
+
+    .contenidoPrincipal-link:nth-child(4n+1) {
+        margin-left: 0;
+    }
+
+    .proyecto-imagen-sobre {
+        margin-left: 1.5em;
+    }
+}
+
